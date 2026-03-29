@@ -30,34 +30,5 @@ python3 batch_analyze.py
 - `AMOUNT_RATIO_MIN` — 평균 대비 배수
 - `IMPULSE_TRADE_COUNT_MIN` — 1시간 내 거래 횟수
 
-## GitHub에 올리기 (계정: **Yoonsoyeon429**)
 
-원격 주소는 항상 아래로 맞춥니다.
-
-- HTTPS: `https://github.com/Yoonsoyeon429/risk_analyz.git`
-- SSH: `git@github.com:Yoonsoyeon429/risk_analyz.git`
-
-프로젝트 폴더에서 **한 번에 실행**하려면:
-
-```bash
-cd /Users/soyeon/breaker
-bash push_github.sh
-```
-
-비밀번호 자리에는 GitHub **비밀번호가 아니라** [Personal Access Token](https://github.com/settings/tokens)을 붙여 넣습니다.
-
-수동으로 하려면:
-
-```bash
-cd /Users/soyeon/breaker
-git remote set-url origin https://github.com/Yoonsoyeon429/risk_analyz.git
-git branch -M main
-git push -u origin main
-```
-
-SSH를 쓰는 경우:
-
-```bash
-git remote set-url origin git@github.com:Yoonsoyeon429/risk_analyz.git
-git push -u origin main
 ```
