@@ -30,12 +30,25 @@ python3 batch_analyze.py
 
 ## GitHub에 올리기
 
-로컬에서 첫 커밋까지 한 뒤, GitHub에서 새 저장소를 만든 다음:
+원격 저장소: [github.com/soyeonyoooon/risk_analyzer](https://github.com/soyeonyoooon/risk_analyzer)
+
+이미 `origin`이 있다면:
 
 ```bash
-git remote add origin https://github.com/<사용자명>/<저장소명>.git
+git push -u origin main
+```
+
+처음 연결할 때만:
+
+```bash
+git remote add origin https://github.com/soyeonyoooon/risk_analyzer.git
 git branch -M main
 git push -u origin main
 ```
 
-SSH를 쓰는 경우 `origin` URL을 `git@github.com:<사용자명>/<저장소명>.git` 형식으로 바꿉니다.
+SSH를 쓰는 경우:
+
+```bash
+git remote set-url origin git@github.com:soyeonyoooon/risk_analyzer.git
+git push -u origin main
+```
