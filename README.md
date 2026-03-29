@@ -1,6 +1,6 @@
 # breaker — 투자 리스크 분석
 
-**GitHub:** [Yoonsoyeon429/risk_analyzer](https://github.com/Yoonsoyeon429/risk_analyzer) · 아이디 `Yoonsoyeon429`
+**GitHub:** [Yoonsoyeon429/risk_analyz](https://github.com/Yoonsoyeon429/risk_analyz) · 아이디 `Yoonsoyeon429`
 
 거래 한 건에 대해 **고점 추격 매수**, **과도한 금액 투자**, **충동 거래** 패턴을 규칙 기반으로 판정합니다.
 
@@ -34,8 +34,8 @@ python3 batch_analyze.py
 
 원격 주소는 항상 아래로 맞춥니다.
 
-- HTTPS: `https://github.com/Yoonsoyeon429/risk_analyzer.git`
-- SSH: `git@github.com:Yoonsoyeon429/risk_analyzer.git`
+- HTTPS: `https://github.com/Yoonsoyeon429/risk_analyz.git`
+- SSH: `git@github.com:Yoonsoyeon429/risk_analyz.git`
 
 프로젝트 폴더에서 **한 번에 실행**하려면:
 
@@ -50,7 +50,7 @@ bash push_github.sh
 
 ```bash
 cd /Users/soyeon/breaker
-git remote set-url origin https://github.com/Yoonsoyeon429/risk_analyzer.git
+git remote set-url origin https://github.com/Yoonsoyeon429/risk_analyz.git
 git branch -M main
 git push -u origin main
 ```
@@ -58,6 +58,6 @@ git push -u origin main
 SSH를 쓰는 경우:
 
 ```bash
-git remote set-url origin git@github.com:Yoonsoyeon429/risk_analyzer.git
+git remote set-url origin git@github.com:Yoonsoyeon429/risk_analyz.git
 git push -u origin main
 ```
