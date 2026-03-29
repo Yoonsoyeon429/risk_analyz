@@ -1,5 +1,7 @@
 # breaker — 투자 리스크 분석
 
+**GitHub:** [soyeonyoooon/risk_analyzer](https://github.com/soyeonyoooon/risk_analyzer) · 아이디 `soyeonyoooon`
+
 거래 한 건에 대해 **고점 추격 매수**, **과도한 금액 투자**, **충동 거래** 패턴을 규칙 기반으로 판정합니다.
 
 ## 요구 사항
@@ -28,20 +30,27 @@ python3 batch_analyze.py
 - `AMOUNT_RATIO_MIN` — 평균 대비 배수
 - `IMPULSE_TRADE_COUNT_MIN` — 1시간 내 거래 횟수
 
-## GitHub에 올리기
+## GitHub에 올리기 (계정: **soyeonyoooon**)
 
-원격 저장소: [github.com/soyeonyoooon/risk_analyzer](https://github.com/soyeonyoooon/risk_analyzer)
+원격 주소는 항상 아래로 맞춥니다.
 
-이미 `origin`이 있다면:
+- HTTPS: `https://github.com/soyeonyoooon/risk_analyzer.git`
+- SSH: `git@github.com:soyeonyoooon/risk_analyzer.git`
+
+프로젝트 폴더에서 **한 번에 실행**하려면:
 
 ```bash
-git push -u origin main
+cd /Users/soyeon/breaker
+bash push_github.sh
 ```
 
-처음 연결할 때만:
+비밀번호 자리에는 GitHub **비밀번호가 아니라** [Personal Access Token](https://github.com/settings/tokens)을 붙여 넣습니다.
+
+수동으로 하려면:
 
 ```bash
-git remote add origin https://github.com/soyeonyoooon/risk_analyzer.git
+cd /Users/soyeon/breaker
+git remote set-url origin https://github.com/soyeonyoooon/risk_analyzer.git
 git branch -M main
 git push -u origin main
 ```
